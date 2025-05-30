@@ -1,1 +1,26 @@
-nvhjch
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+main {
+  padding-top: 70px; /* Para evitar que o conteúdo fique embaixo do título fixo */
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
